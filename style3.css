@@ -1,0 +1,17 @@
+h1{
+    color: goldenrod;
+    font-family: sans-serif;
+    font-weight: bold;
+
+}
+body{
+    background-image: url("bg.jpg");
+    background-size: cover;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+}
+#message-el{
+    font-style: italic;
+     
+}
