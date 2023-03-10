@@ -1,22 +1,35 @@
 let firstCard = 10
 let secondCard = 11
-let sum = firstCard + secondCard + 5
+let sum = firstCard + secondCard
 
-let Blackjack = false
-let soul = true
+let cardel = document.getElementById("card-el")
+let sumel = document.getElementById("sum-el")
 let message = ""
+let message1 = document.getElementById("message-el")
+let ncardel = document.getElementById("ncard")
 
-if (sum <= 20){
-    message = "new card?"
-}
-else if(sum === 21){
-    message = "Blackjack!"
-    Blackjack = true
+
+function startGame(){
+
+    if (sum <= 20){
+        message = "new card?"
+    }
+    else if(sum === 21){
+        message = "Blackjack!"
+
+    
+    }
+    else{
+        message = "Out!"
+      
+    }
+message1.textContent = message
+sumel.textContent = "Sum: " + sum
+cardel.textContent = "Cards: " + firstCard + "," + secondCard
 
 }
-else{
-    message = "Out!"
-    soul = false
-}
+function newCard(){
+    console.log("Drawing out a new card")
+    ncardel.textContent = "Drawing out a new card"
 
-console.log(message)
+}
