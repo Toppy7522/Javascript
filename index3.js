@@ -1,6 +1,8 @@
-let firstCard = 10
+let firstCard = 5
 let secondCard = 11
+let thirdCard = 5
 let sum = firstCard + secondCard
+let sum2 = 0
 
 let cardel = document.getElementById("card-el")
 let sumel = document.getElementById("sum-el")
@@ -29,7 +31,12 @@ cardel.textContent = "Cards: " + firstCard + "," + secondCard
 
 }
 function newCard(){
-    console.log("Drawing out a new card")
-    ncardel.textContent = "Drawing out a new card"
+    console.log("Drawing out a new card from the deck!")
+   
+    sum2 = sum + thirdCard
+    
+    startGame()
+    cardel.textContent = "Cards: " + firstCard + "," + secondCard + "," + thirdCard
+    sumel.textContent = "Sum :" + sum2
 
 }
