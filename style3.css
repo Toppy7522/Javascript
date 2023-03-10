@@ -13,5 +13,84 @@ body{
 }
 #message-el{
     font-style: italic;
-     
+   
+    
+}
+.start{
+    color: #016f32;
+    width: 150px;
+    background: goldenrod;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: none;
+    border-radius: 2px;
+
+
+}
+.new{
+    margin-top: 10px;
+    color: #016f32;
+    width: 150px;
+    background: goldenrod;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: none;
+    border-radius: 2px;
+
+
+}
+.start:hover{
+
+    color: #19ad5c;
+    width: 150px;
+    background: rgb(255, 192, 34);
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: none;
+    border-radius: 2px;
+
+
+
+}
+.start:active{
+    opacity: 85%;
+
+}
+
+.new:hover{
+
+    color: #19ad5c;
+    width: 150px;
+    background: rgb(255, 192, 34);
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: none;
+    border-radius: 2px;
+
+
+
+}
+.new:active{
+    opacity: 85%;
+
 }
